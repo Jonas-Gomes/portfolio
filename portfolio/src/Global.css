@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    width: 80vw;
+}
+
+.presentation {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding: 3%;
+}
+
+.title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 32px;
+    line-height: 1.4em;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    color: #f4f4f5;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    color: #96969e;
+    line-height: 1.4em;
+}
+
+.profile {
+    background-image: url(./assets/profile.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    color: #96969e;
+    font-size: 40px;
+    & a {
+        padding-right: 50px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #96969e;
+    }
+}
+
+@media (max-width:767px) {
+    .title {
+        font-size: 24px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+    .socials {
+        font-size: 28px;
+        & a {
+            padding-right: 30px;
+        }
+    }
+}
