@@ -1,0 +1,47 @@
+[
+  {
+    "image": "/assets/vitrinne.png",
+    "title": "Vitrinne",
+    "fname": "Vitrine Serviços de Tecnologia LTDA",
+    "description": "Desenvolvimento de aplicativo e website, desde a concepção até a publicação. \n Implementação do frontend e backend utilizando JavaScript, Node.js, React e React Native.\nDesenvolvimento mobile com Android Studio e XCODE.\nPublicação dos aplicativos em suas devidas lojas: Apple Store (iOS) e Play Store (Android).\nGerenciamento e deploy de todas as fases do sistema, incluindo armazenamento de imagens (Firebase Storage), banco de dados (SQL), backend e frontend.\nIntegração com banco de dados relacionais e Firebase.\nControle de versão com Git e builds para Android/iOS.",
+    "year": 2025,
+    "primaryColor": "#67179e",
+    "position": "Fullstack Dev"
+  },
+  {
+    "image": "/assets/infologo.png",
+    "title": "Info Sistemas",
+    "fname": "Info Sistemas de Informática LTDA",
+    "description": "Desenvolvimento web com Typescript, Javascript, Node JS e Angular. \n Desenvolvimento mobile com Flutter e Android Studio.\n Deploy de sistemas em servidores da empresa usando PM2 e WinSCP.\n Manipulação de banco de dados SQL no Microsoft SQL Server e querys no geral(backend).\n Uso de ferramenta de controle de versão GIT em ambiente Microsoft Azure.\n Experiência com trabalho em equipe e metodologia ágil de desenvolvimento Scrum.",
+    "year": 2022,
+    "primaryColor": "#fbbb00",
+    "position": "Analista de sistemas Jr."
+  },
+  {
+    "image": "/assets/hodel.png",
+    "title": "Hodel Technology",
+    "fname": "Hodel Technology Ltd",
+    "description": "Desenvolvimento com biblioteca Javascript reativa Lemonade JS, além de Node JS, J Suites, Javascript vanilla. \n Manipulação de postgresql. \n Elaboração de documentação da biblioteca Javascript reativa Lemonade JS.\n Uso de ferramenta de controle de versão GIT.",
+    "year": 2022,
+    "primaryColor": "#da2e08",
+    "position": "Fullstack Dev"
+  },
+  {
+    "image": "/assets/oxe.png",
+    "title": "Oxe Desenvolvimentos",
+    "fname": "Oxe Desenvolvimentos de Software",
+    "description": "Desenvolvimento React JS, Node JS, React-Native. \n Manipulação de MongoDB, Styled-Components. \n Desenvolvimento de protótipos pela ferramenta Figma.\n Elaboração de documentos como documento de requisitos, dicionário de dados, Diagramas em geral (DER, Lógico, Conceitual, etc). \n Uso de ferramentas de controle de versão, github e bitbucket.",
+    "year": 2021,
+    "primaryColor": "#ffdb15",
+    "position": "Analista de sistemas"
+  },
+  {
+    "image": "/assets/imperio.png",
+    "title": "Império Software",
+    "fname": "Império Software ",
+    "description": "Desenvolvimento Mobile utilizando Android Studio. \n Uso de ferramentas de controle de versão, github e bitbucket. \n Suporte Técnico de software / hardware.",
+    "year": 2017,
+    "primaryColor": "#8d060c",
+    "position": "Analista de sistemas"
+  }
+]

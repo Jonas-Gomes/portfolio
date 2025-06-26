@@ -1,0 +1,47 @@
+[
+  {
+    "image": "/assets/vitrinne.png",
+    "title": "Vitrinne",
+    "fname": "Vitrine Technology Services LLC",
+    "description": "Complete and autonomous development of app and website from conception to publishing. \nFrontend and backend using JavaScript, Node.js, React, and React Native.\nMobile development with Android Studio and XCODE.\nApp publishing on Apple Store (iOS) and Play Store (Android).\nManagement and deployment of all system stages, including image storage (Firebase Storage), SQL database, backend, and frontend.\nIntegration with relational databases and Firebase.\nVersion control using Git and build management for Android/iOS.",
+    "year": 2025,
+    "primaryColor": "#67179e",
+    "position": "Fullstack Dev"
+  },
+  {
+    "image": "/assets/infologo.png",
+    "title": "Info Sistemas",
+    "fname": "Info Systems Ltd.",
+    "description": "Web development using Typescript, Javascript, Node JS, and Angular. \nMobile development with Flutter and Android Studio.\nSystem deployment on company servers using PM2 and WinSCP.\nSQL database manipulation in Microsoft SQL Server and general backend queries.\nVersion control with GIT in Microsoft Azure environment.\nTeamwork experience and agile development methodology (Scrum).",
+    "year": 2022,
+    "primaryColor": "#fbbb00",
+    "position": "Junior Systems Analyst"
+  },
+  {
+    "image": "/assets/hodel.png",
+    "title": "Hodel Technology",
+    "fname": "Hodel Technology Ltd",
+    "description": "Development using the reactive Javascript library Lemonade JS, along with Node JS, J Suites, and vanilla Javascript. \nPostgreSQL handling. \nDocumentation writing for the Lemonade JS reactive library.\nVersion control using GIT.",
+    "year": 2022,
+    "primaryColor": "#da2e08",
+    "position": "Fullstack Dev"
+  },
+  {
+    "image": "/assets/oxe.png",
+    "title": "Oxe Desenvolvimentos",
+    "fname": "Oxe Software Development",
+    "description": "Development with React JS, Node JS, React Native. \nMongoDB handling and use of Styled-Components. \nPrototype development using Figma.\nDocumentation including requirement documents, data dictionary, and various diagrams (ERD, Logical, Conceptual, etc). \nVersion control tools used: GitHub and Bitbucket.",
+    "year": 2021,
+    "primaryColor": "#ffdb15",
+    "position": "Systems Analyst"
+  },
+  {
+    "image": "/assets/imperio.png",
+    "title": "Império Software",
+    "fname": "Império Software",
+    "description": "Mobile development using Android Studio. \nVersion control with GitHub and Bitbucket. \nTechnical support for software and hardware.",
+    "year": 2017,
+    "primaryColor": "#8d060c",
+    "position": "Systems Analyst"
+  }
+]

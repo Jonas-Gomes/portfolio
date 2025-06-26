@@ -1,0 +1,89 @@
+[
+  {
+    "category": "Linguagens de Programação",
+    "skills": [
+      "React JS",
+      "Angular",
+      "Node JS",
+      "React-Native",
+      "Lemonade JS",
+      "J Suites",
+      "Java",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "C",
+      "C++",
+      "Outras linguagens"
+    ]
+  },
+  {
+    "category": "Banco de Dados",
+    "skills": [
+      "MongoDB",
+      "PostgreSQL",
+      "PostGIS",
+      "Redis",
+      "SQL em geral",
+      "Armazenamento de imagens em nuvem"
+    ]
+  },
+  {
+  "category": "Mobile & Publicação",
+    "skills": [
+      "React Native",
+      "Android Studio",
+      "Kotlin",
+      "Xcode",
+      "Publicação na Play Store",
+      "Publicação na Apple Store"
+    ]
+  },
+  {
+    "category": "DevOps",
+    "skills": [
+      "Trabalho em equipe",
+      "Metodologias ágeis (XP, Scrum)",
+      "Trabalho remoto (home office)"
+    ]
+  },
+  {
+    "category": "Controle de Versão",
+    "skills": [
+      "Git",
+      "GitHub",
+      "Bitbucket",
+      "Gerenciamento de builds para Android e iOS"
+    ]
+  },
+  {
+  "category": "Testes e Qualidade",
+    "skills": [
+      "Testes unitários (Jest, Mocha)",
+      "Testes de integração",
+      "Testes end-to-end (Cypress, Playwright)"
+    ]
+  },
+  {
+    "category": "Arquitetura de Software",
+    "skills": [
+      "Princípios SOLID",
+      "Arquitetura em camadas",
+      "Clean Architecture",
+      "Domain-Driven Design (DDD)",
+      "Prototipagem de alto nível (Figma)",
+      "Boas práticas (Clean Code)",
+      "UI/UX Design"
+    ]
+  },
+  {
+    "category": "Ferramentas e Integrações",
+    "skills": [
+      "Postman / Insomnia",
+      "Firebase (Auth, Firestore, Storage)",
+      "Docker (básico)",
+      "CI/CD com GitHub Actions",
+      "Integração com APIs REST / GraphQL"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "image": "/assets/ifpb.png",
+    "title": "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba - IFPB",
+    "description": "Análise e desenvolvimento de sistemas  — Nível Superior",
+    "description2": "Cajazeiras - PB",
+    "year": 2025
+  },
+  {
+    "image": "/assets/eeep.png",
+    "title": "Escola Estadual de Ensino Profissional Padre João Bosco de Lima",
+    "description": "Ensino Médio e Técnico em informática",
+    "description2": "Mauriti - CE",
+    "year": 2017
+  }
+]

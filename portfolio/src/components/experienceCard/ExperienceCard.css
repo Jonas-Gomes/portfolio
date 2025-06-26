@@ -1,0 +1,190 @@
+.experience-card {
+    display: flex;
+    position: relative;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    align-items: left;
+    padding: 25px;
+    border-radius: 30px;
+    width: 240px;
+    opacity: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 50px var(--boxShadowColor);
+    & img {
+        width: 240px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    & p {
+        margin: 10px;
+    }
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 60%, 
+    var(--primaryColor),
+    transparent 80%
+  );
+  border-radius: 30px; /* mesmo raio do card */
+  transform: rotate(-45deg) translateY(-100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+  z-index: 1; 
+}
+
+.experience-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 1px var(--primaryColor);
+}
+
+.experience-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.experience-card:nth-child(odd) {
+  transform: translateY(-20px);
+}
+
+.experience-card:nth-child(even) {
+  transform: translateY(20px);
+}
+
+.experience-card.animate-in {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.ec-title {
+  color: #f4f4f5;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: left;
+}
+
+.ec-description {
+  font-weight: 500;
+  font-size: 18px;
+  color: #96969e;
+  line-height: 1.4em;
+}
+
+.ec-year {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #f4f4f5;
+}
+
+.modal-overlay {
+  position: fixed;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: linear-gradient(310deg, rgba(27, 27, 27, 1) 71%, var(--primaryColor) 100%);
+  color: #f4f4f5;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  position: relative;
+  animation: fadeIn 0.3s ease;
+  & img {
+        width: 240px !important;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+  & ul {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      text-align: start;
+      & li {
+        margin-bottom: 5px;
+      }
+  }
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.modal-content span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.modal-content span:hover {
+  color: #ff2e2e;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width:1439px) {
+    
+}
+
+@media (max-width:767px) {
+
+  .modal-content {
+  max-height: 85%;
+  overflow-y: auto;
+}
+
+  .experience-card:nth-child(odd) {
+    transform: translateY(0px);
+  }
+
+  .experience-card:nth-child(even) {
+    transform: translateY(0px);
+  }
+}

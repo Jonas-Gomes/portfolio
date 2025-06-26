@@ -1,0 +1,89 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": [
+      "React JS",
+      "Angular",
+      "Node JS",
+      "React Native",
+      "Lemonade JS",
+      "J Suites",
+      "Java",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "C",
+      "C++",
+      "Other languages"
+    ]
+  },
+  {
+    "category": "Databases",
+    "skills": [
+      "MongoDB",
+      "PostgreSQL",
+      "PostGIS",
+      "Redis",
+      "General SQL",
+      "Cloud image storage"
+    ]
+  },
+  {
+    "category": "Mobile & Publishing",
+    "skills": [
+      "React Native",
+      "Android Studio",
+      "Kotlin",
+      "Xcode",
+      "Publishing to Play Store",
+      "Publishing to Apple Store"
+    ]
+  },
+  {
+    "category": "DevOps",
+    "skills": [
+      "Teamwork",
+      "Agile methodologies (XP, Scrum)",
+      "Remote work (home office)"
+    ]
+  },
+  {
+    "category": "Version Control",
+    "skills": [
+      "Git",
+      "GitHub",
+      "Bitbucket",
+      "Build management for Android and iOS"
+    ]
+  },
+  {
+    "category": "Testing & Quality",
+    "skills": [
+      "Unit testing (Jest, Mocha)",
+      "Integration testing",
+      "End-to-end testing (Cypress, Playwright)"
+    ]
+  },
+  {
+    "category": "Software Architecture",
+    "skills": [
+      "SOLID principles",
+      "Layered architecture",
+      "Clean Architecture",
+      "Domain-Driven Design (DDD)",
+      "High-fidelity prototyping (Figma)",
+      "Best practices (Clean Code)",
+      "UI/UX Design"
+    ]
+  },
+  {
+    "category": "Tools & Integrations",
+    "skills": [
+      "Postman / Insomnia",
+      "Firebase (Auth, Firestore, Storage)",
+      "Docker (basic)",
+      "CI/CD with GitHub Actions",
+      "Integration with REST / GraphQL APIs"
+    ]
+  }
+]
