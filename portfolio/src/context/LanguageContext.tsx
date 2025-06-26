@@ -2,9 +2,12 @@ import { createContext, useContext, useState } from "react";
 
 type Language = "pt" | "en";
 
-const LanguageContext = createContext({
-  language: "pt" as Language,
-  setLanguage: (lang: Language) => {},
+const LanguageContext = createContext<{
+  language: Language;
+  setLanguage: (lang: Language) => void;
+}>({
+  language: "pt",
+  setLanguage: () => {},
 });
 
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {

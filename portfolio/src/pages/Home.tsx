@@ -25,8 +25,6 @@ export default function Home() {
     setIsMenuOpen((prev) => !prev);
   };
 
-  const [fade, setFade] = useState(false);
-
   const toggleLanguage = () => {
     setLanguage(language === "pt" ? "en" : "pt");
   };
