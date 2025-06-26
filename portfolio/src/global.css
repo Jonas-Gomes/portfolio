@@ -214,7 +214,7 @@ body {
 }
 
 .profile {
-    background-image: url(../../assets/profile2.jpg);
+    background-image: url(/assets/profile2.jpg);
     background-size: cover;
     background-position: center;
     width: 120px;
