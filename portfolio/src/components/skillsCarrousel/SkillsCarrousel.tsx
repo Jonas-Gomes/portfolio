@@ -1,4 +1,4 @@
-import "./skillsCarrousel.css";
+import "./SkillsCarrousel.css";
 import ptSkills from "../../skills/skills.pt.json";
 import enSkills from "../../skills/skills.en.json";
 import { useLanguage } from "../../context/LanguageContext";
